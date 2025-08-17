@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# CRUD Cura
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and modern **CRUD (Create, Read, Update, Delete)** web application built to demonstrate database management with a clean UI and smooth user experience. The app allows users to manage records seamlessly and is deployed on **Vercel**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🔖 Project Title
+**CRUD-Cura**
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📖 Description
+CRUD-Cura is a lightweight web application for performing basic data management operations.  
+It is designed to help developers and students understand how CRUD functionality works in a real-world context, with a focus on usability, responsiveness, and scalability.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The project also showcases integration of **AI-powered support**, allowing users to get contextual help while using the app.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Technologies Used
+- **Frontend**: React + Next.js  
+- **Styling**: Tailwind CSS  
+- **Backend**: Node.js (API Routes in Next.js)  
+- **Database**: MongoDB / MySQL (depending on your setup)  
+- **Deployment**: Vercel  
+- **AI Support**: OpenAI API integration  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ✨ Features
+- Add new records (Create)  
+- View records in a clean table (Read)  
+- Edit existing records (Update)  
+- Remove records (Delete)  
+- Responsive and minimal design with Boostrap
+- Deployed on Vercel for easy access  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
+## ▶️ How to Run a Project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. 📥 **Clone repositori:**
+   ```bash
+   git clone https://github.com/belhartrp/crud-cura.git
+   ```
 
-### `npm run eject`
+   - Or download ZIP:
+     - Click the `Code` button > `Download ZIP`
+     - Extract the ZIP file to a folder of your choice
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. 📂 **Go to the project folder**
+   ```bash
+   cd crud-cura
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. 📦 **Install dependencies**
+   ```bash
+   npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. 🛠 **Run the project**:
+   ```bash
+   npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. 🌐 **Jalankan di server lokal**:
+   - Access: http://localhost:3000
 
-## Learn More
+5. 🚀 **The App is Ready to Use!**:
+   - Direct access here: [https://crud-cura.vercel.app/](https://crud-cura.vercel.app/)
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🤖 AI Support Explanation
+CRUD Cura can integrate AI features to enhance user experience, such as:
+- Provide guidance in structuring the Next.js project.
+- Suggest Tailwind CSS styling for a clean and responsive design.
+- Help debug errors in API routes and database connection.
